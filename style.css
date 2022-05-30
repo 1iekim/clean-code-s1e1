@@ -151,9 +151,7 @@
 
 /* Edit Task */
 .task-list .task-content .task-input[type = text],
-.task-list 
-.edit-mode 
-.label {
+.task-list .edit-mode .label {
   display: none;
 }
 
