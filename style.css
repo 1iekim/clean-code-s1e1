@@ -134,7 +134,7 @@
 
 .delete-img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotateZ(46deg);
   transition: transform 200ms ease-in;
 }
 
