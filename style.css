@@ -23,26 +23,32 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-wrapper {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
+
 .task-content,
 .title {
   list-style: none;
 }
+
 .task-input,
 .button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -52,9 +58,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .title,
 .label[for="new-task"] {
@@ -66,6 +74,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -78,6 +87,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input[type="text"]:focus {
   color: #333;
 }
@@ -87,6 +97,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .task-input #new-task {
   width: 318px;
 }
@@ -101,6 +112,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task-content > * {
   vertical-align: middle;
 }
@@ -108,23 +120,28 @@
 .task-content > .task-input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .task-content > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-content > .task-input[type="text"] {
   width: 226px;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
+
 
 /* Completed */
 #completed-tasks .label {
